@@ -16,7 +16,7 @@ function checkStatus(response) {
     }
 }
 
-fetchData('https://randomuser.me/api/?results=120')
+fetchData('https://randomuser.me/api/?results=12')
     .then(data => {
         console.log(data.results[0]);
         for (var i = 0; i < data.results.length; i++) {
